@@ -455,8 +455,9 @@ var resizePizzas = function(size) {
     var offsetWidth = allRandomPizzaContainers[0].offsetWidth,
         dx = determineDx(allRandomPizzaContainers[0], size),
         newwidth = (offsetWidth + dx) + 'px';
+    var i, len;
 
-    for (var i = 0; i < allRandomPizzaContainers.length; i++) {
+    for (i = 0, len =allRandomPizzaContainers.length ; i < len ; i++) {
       allRandomPizzaContainers[i].style.width = newwidth;
     }
   }
@@ -509,7 +510,8 @@ function updatePositions() {
   var items = document.getElementsByClassName('mover');
   // Save the scrollTop to a variable.
   var scrollTop = document.body.scrollTop;
-  for (var i = 0; i < items.length; i++) {
+  var i, len;
+  for (i = 0, len = items.length; i < len; i++) {
     var phase = Math.sin((scrollTop / 1250) + (i % 5));
     // items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
 

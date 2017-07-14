@@ -538,6 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
   var elem;
   var movingPizzas = document.querySelector("#movingPizzas1");
+  // reduce sliding pizza number
   for (var i = 0; i < 64; i++) {
    elem = document.createElement('img');
     elem.className = 'mover';

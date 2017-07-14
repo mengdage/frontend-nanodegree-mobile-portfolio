@@ -2,6 +2,18 @@
 
 THis is a project of Udacity nanodegree program.
 
+## Optimization Process
+1. Minified `.css`, `.js`, `.html` and images.
+2. Moved Google Analytics scripts to the end of the body.
+3. Replaced remotely hosted thumbnails with locally hosted versions.
+4. Applied media to css links and async attributes to js links.
+5. Removed google fonts.
+6. Refactor `views/js/main.js`.
+  - Save DOM objects to variables to reduce DOM query.
+  - Change `left` to `translate` to avoid layout and paint operations.
+  - Reduce sliding pizza number.
+
+
 ## Quickstart
 
 - Install [npm](https://www.npmjs.com/), [gulp](https://www.gulp.com/).

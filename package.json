@@ -1,0 +1,33 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Website Optimization project of Udacity's Front-End Web Developer Nanodegree program.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengdage/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "Meng Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengdage/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/mengdage/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "merge-stream": "^1.0.1",
+    "ngrok": "^2.2.14",
+    "path": "^0.12.7",
+    "psi": "^3.0.0",
+    "run-sequence": "^2.0.0",
+    "url": "^0.11.0"
+  }
+}
